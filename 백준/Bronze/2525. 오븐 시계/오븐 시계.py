@@ -1,8 +1,8 @@
 A, B = map(int, input().split()) # 요리 시작 시간 (시 분)
 C = int(input()) # 요리하는 시간
 
-A += C // 60
-B += C % 60
+A = A + C // 60
+B = B + C % 60
 
 if B >= 60:
     A += 1
