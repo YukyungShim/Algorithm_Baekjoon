@@ -1,5 +1,5 @@
 T = int(input())
 
-for i in range(1,T+1):
-    a,b = map(int, input().split())
-    print("Case #"+str(i)+':',a+b)
+for x in range(T):
+    A, B = map(int, input().split())
+    print("Case #"+ str(x+1)+":", A+B)
